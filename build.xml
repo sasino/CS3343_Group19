@@ -11,11 +11,10 @@
     <property name="source" value="1.7"/>
     <property name="test.src.dir" value="src"/>
     <path id="Restaurant Loading Simulator.classpath">
-        <pathelement location="bin"/>
-        <pathelement location="lib/junit-4.12.jar"/>
-        <pathelement location="lib/hamcrest-junit-2.0.0.0.jar"/>
+      <pathelement location="bin"/>
+      <fileset dir="lib" includes="*.jar"/>
     </path>
-    <target name="test" depends="run, clean" />
+    <target name="test" depends="run, checkstyle, clean" />
     <target name="init">
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
@@ -38,16 +37,31 @@
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
-    <target name="run" depends="build">
+    <target name="run" depends="build" >
         <mkdir dir="${junit.output.dir}"/>
         <junit printsummary="on" haltonfailure="yes">
           <formatter type="xml"/>
-            <batchtest>
+            <batchtest todir="${junit.output.dir}">
                 <fileset dir="${test.src.dir}">
                   <include name="**/*Test*" />
                 </fileset>
               </batchtest>
             <classpath refid="Restaurant Loading Simulator.classpath"/>
         </junit>
+    </target>
+    <target name="checkstyle"
+      depends="init-checkstyle">
+      <!-- See http://checkstyle.sourceforge.net/anttask.html for full options of using checkstyle with ant-->
+      <checkstyle config="checkstyle.xml" 
+        failureProperty="checkstyle.warning"
+        failOnViolation="true" 
+        maxWarnings="0">
+        <formatter type="xml"/>
+        <fileset dir="src" includes="**/*.java"/>
+      </checkstyle>
+    </target>
+    
+    <target name="init-checkstyle">
+      <taskdef resource="com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties" classpathref="Restaurant Loading Simulator.classpath"/>
     </target>
 </project>

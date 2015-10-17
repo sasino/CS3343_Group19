@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="kit-Aspire-V3-371" name="simulatortest.TestBasic" skipped="0" tests="2" time="0.02" timestamp="2015-10-17T04:08:27">
+  <properties>
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SELINUX_INIT" value="YES" />
+    <property name="env.rvm_bin_path" value="/home/kit/.rvm/bin" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="test.src.dir" value="src" />
+    <property name="env.GDM_LANG" value="en_US" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/kit" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="env.LOGNAME" value="kit" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="env._system_version" value="14.04" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="java.version" value="1.7.0_79" />
+    <property name="eclipse.pdebuild.home" value="/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/.//" />
+    <property name="ant.file.Restaurant Loading Simulator" value="/home/kit/workspace/Restaurant Loading Simulator/build.xml" />
+    <property name="env._system_type" value="Linux" />
+    <property name="env.OXYGEN_DISABLE_INNER_SHADOWS_HACK" value="1" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.LANGUAGE" value="en_HK:en" />
+    <property name="env.GEM_HOME" value="/home/kit/.rvm/gems/ruby-2.2.1" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-w6FlhU" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/2083" />
+    <property name="env.RUBY_VERSION" value="ruby-2.2.1" />
+    <property name="user.name" value="kit" />
+    <property name="env.LANG" value="en_HK.UTF-8" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-RDEpouqF42" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/usr/share/applications/eclipse.desktop" />
+    <property name="path.separator" value=":" />
+    <property name="env.XMODIFIERS" value="@im=ibus" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="env.HOME" value="/home/kit" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1445054906338 -Declipse.connect.port=57518 -Declipse.pdebuild.home=/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/.// -Declipse.pdebuild.scripts=/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts// -Declipse.pdebuild.templates=/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates// -Dant.home=/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/kit/workspace/Restaurant Loading Simulator/build.xml" />
+    <property name="ant.file" value="/home/kit/workspace/Restaurant Loading Simulator/build.xml" />
+    <property name="env._system_name" value="Ubuntu" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="env.GNOME_KEYRING_PID" value="2079" />
+    <property name="ant.file.type.Restaurant Loading Simulator" value="file" />
+    <property name="user.language" value="en" />
+    <property name="env.UPSTART_EVENTS" value="xsession started" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="target" value="1.7" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="source" value="1.7" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="env.rvm_path" value="/home/kit/.rvm" />
+    <property name="env.GEM_PATH" value="/home/kit/.rvm/gems/ruby-2.2.1:/home/kit/.rvm/gems/ruby-2.2.1@global" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="eclipse.pdebuild.templates" value="/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates//" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="env.GDK_CORE_DEVICE_EVENTS" value="1" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="env.JOB" value="unity-settings-daemon" />
+    <property name="os.name" value="Linux" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.rvm_version" value="1.26.11 (latest)" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="env.QT_IM_MODULE" value="ibus" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib:/home/kit/.eclipse/org.eclipse.platform_4.5.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/744/0/.cp" />
+    <property name="env.rvm_prefix" value="/home/kit" />
+    <property name="env.PATH" value="/home/kit/.rvm/gems/ruby-2.2.1/bin:/home/kit/.rvm/gems/ruby-2.2.1@global/bin:/home/kit/.rvm/rubies/ruby-2.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/kit/.rvm/bin" />
+    <property name="eclipse.pdebuild.scripts" value="/opt/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts//" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="basedir" value="/home/kit/workspace/Restaurant Loading Simulator" />
+    <property name="java.class.version" value="51.0" />
+    <property name="env.SHLVL" value="0" />
+    <property name="ant.home" value="/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020" />
+    <property name="env.UPSTART_JOB" value="unity7" />
+    <property name="env._system_arch" value="x86_64" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="env.USER" value="kit" />
+    <property name="env.GTK_IM_MODULE" value="ibus" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module:unity-gtk-module" />
+    <property name="ant.project.name" value="Restaurant Loading Simulator" />
+    <property name="env.SESSIONTYPE" value="gnome-session" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="env.MY_RUBY_HOME" value="/home/kit/.rvm/rubies/ruby-2.2.1" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="env.COMPIZ_BIN_PATH" value="/usr/bin/" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="os.version" value="3.16.0-50-generic" />
+    <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+    <property name="user.home" value="/home/kit" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.SESSION" value="ubuntu" />
+    <property name="env.XDG_SESSION_ID" value="c2" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.XAUTHORITY" value="/home/kit/.Xauthority" />
+    <property name="user.dir" value="/home/kit/workspace/Restaurant Loading Simulator" />
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+    <property name="env.PWD" value="/home/kit" />
+    <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="java.vm.version" value="24.79-b02" />
+    <property name="java.class.path" value="/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-antlr.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-bcel.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-bsf.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-log4j.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-oro.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-regexp.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-resolver.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-apache-xalan2.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-commons-logging.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-commons-net.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-jai.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-javamail.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-jdepend.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-jmf.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-jsch.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-junit.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-junit4.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-launcher.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-netrexx.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-swing.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-testutil.jar:/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant.jar:/home/kit/.eclipse/org.eclipse.platform_4.5.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/79/0/.cp/lib/antdebug.jar:/home/kit/.eclipse/org.eclipse.platform_4.5.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/79/0/.cp/lib/remote.jar:/home/kit/.eclipse/org.eclipse.platform_4.5.0_1473617060_linux_gtk_x86_64/configuration/org.eclipse.osgi/80/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar:/opt/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.104.0.v20150528-0211.jar" />
+    <property name="ant.library.dir" value="/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="2847" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ant.core.lib" value="/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant.jar" />
+    <property name="env.UPSTART_INSTANCE" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="/" />
+    <property name="java.runtime.version" value="1.7.0_79-b14" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-w6FlhU/ssh" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="env.QT4_IM_MODULE" value="xim" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="env.ANT_HOME" value="/opt/eclipse/plugins/org.apache.ant_1.9.4.v201504302020" />
+    <property name="user.country" value="HK" />
+    <property name="env.INSTANCE" value="" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.NODE_PATH" value="/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-w6FlhU/gpg:0:1" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="env.IRBRC" value="/home/kit/.rvm/rubies/ruby-2.2.1/.irbrc" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+  </properties>
+  <testcase classname="simulatortest.TestBasic" name="testFalse" time="0.001" />
+  <testcase classname="simulatortest.TestBasic" name="testTrue" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
