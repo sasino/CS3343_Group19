@@ -1,5 +1,7 @@
 package simulator;
 
+import java.util.ArrayList;
+
 //enum Tablesize{
 //  TWO(2),
 //  FOUR(4),
@@ -17,12 +19,14 @@ public class Table
 {
   private int size;
   private int occupied;
+  private ArrayList<CustomerGroup> allCustomers;
   
   public Table(int size) throws Exception
   {
     if(size==2 || size==4 || size==8)
     {
       this.size=size;
+      allCustomers = new ArrayList<CustomerGroup>();
       occupied=0;
     }
     else
@@ -31,30 +35,36 @@ public class Table
     }
   }
   
-  public int add(int n)
+  public int add(CustomerGroup customer)
   {
-    if(n+occupied > size)
+    if(customer.getSize()+occupied > size)
     {
     return 1;
     }
     else
     {
-      occupied+=n;
+      occupied+=customer.getSize();
+      allCustomers.add(customer);
       return 0;
     }
   }
   
-  public int remove(int n)
+  public int remove(CustomerGroup customer)
   {
-    if(n > occupied)
+    if(allCustomers.contains(customer))
     {
+      if(customer.getSize() > occupied)
+      {
+      return 1;
+      }
+      else
+      {
+        occupied-=customer.getSize();
+        allCustomers.remove(customer);
+        return 0;
+      }
+     }
     return 1;
-    }
-    else
-    {
-      occupied-=n;
-      return 0;
-    }
   }
   
   public int getSize()
@@ -65,5 +75,20 @@ public class Table
   public int getOccupied()
   {
     return occupied;
+  }
+  
+  public int getRemaining()
+  {
+    return size-occupied;
+  }
+  
+  public ArrayList<CustomerGroup> getCustomers()
+  {
+    return allCustomers;
+  }
+  
+  public void clearTable()
+  {
+    allCustomers.clear();
   }
 }
