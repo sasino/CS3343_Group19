@@ -38,7 +38,7 @@ public class Manager {
     int totalRemain=0;
     for(Table t : allTables)
     {
-      totalRemain+=t.getRemaining();
+      totalRemain+=t.getAvailable();
     }
     return totalRemain;
   }
@@ -48,16 +48,27 @@ public class Manager {
     if(changeAllowed)
      {
       Table t = SeatAssignAlgorithm.allowSeatChange(customer, allTables);
-      if(t.getOccupied()!=0)
+      if(t.getWaitingCustomers().size() > 0)
       {
-        //reassign,switch so on...
+        /*
+         * foreach customer in t, reassign w/ change(True/False)
+         * rearrange
+         */
+        for(CustomerGroup c : t.getWaitingCustomers())
+        {
+          SeatAssign(c, false);
+        }
       }
-      else{
         t.add(customer);
-      }
+      
      }else{
        SeatAssignAlgorithm.noSeatChange(customer, allTables).add(customer);
      }
+  }
+  
+  public void SeatSwitch()
+  {
+    
   }
   
   public void SeatRelease(CustomerGroup customer, Table t)
@@ -71,7 +82,7 @@ public class Manager {
     
     for(Table t : allTables)
     {
-      for(CustomerGroup c : t.getCustomers())
+      for(CustomerGroup c : t.getWaitingCustomers())
       {
         allCustomerGroups.add(c);
       }
@@ -80,11 +91,3 @@ public class Manager {
     return allCustomerGroups;
   }
 }
-
-
-/*
- * rearrange
- * switchSeat
- * registerEvent
- * 
- */
