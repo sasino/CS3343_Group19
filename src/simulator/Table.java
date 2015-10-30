@@ -79,12 +79,33 @@ public class Table
   
   public int getRemaining()
   {
-    return size-occupied;
+    return size - occupied;
   }
   
-  public ArrayList<CustomerGroup> getCustomers()
+  public int getAvailable()
   {
-    return allCustomers;
+    int avail = 0;
+    for(CustomerGroup customer : allCustomers)
+    {
+      if(customer.getState() instanceof StateWaitingFood)
+      {
+        avail+=customer.getSize();
+      }
+    }
+    return avail;
+  }
+  
+  public ArrayList<CustomerGroup> getWaitingCustomers()
+  {
+    ArrayList<CustomerGroup> availCustomers = new ArrayList<CustomerGroup>();
+    for(CustomerGroup customer : allCustomers)
+    {
+      if(customer.getState() instanceof StateWaitingFood)
+      {
+        availCustomers.add(customer);
+      }
+    }
+    return availCustomers;
   }
   
   public void clearTable()
