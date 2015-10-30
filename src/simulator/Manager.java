@@ -50,10 +50,6 @@ public class Manager {
       Table t = SeatAssignAlgorithm.allowSeatChange(customer, allTables);
       if(t.getWaitingCustomers().size() > 0)
       {
-        /*
-         * foreach customer in t, reassign w/ change(True/False)
-         * rearrange
-         */
         for(CustomerGroup c : t.getWaitingCustomers())
         {
           SeatAssign(c, false);
@@ -64,11 +60,6 @@ public class Manager {
      }else{
        SeatAssignAlgorithm.noSeatChange(customer, allTables).add(customer);
      }
-  }
-  
-  public void SeatSwitch()
-  {
-    
   }
   
   public void SeatRelease(CustomerGroup customer, Table t)
